@@ -26,7 +26,7 @@ public class Main {
         //Problem 4
         //System.out.format("%d%n",fun.largestPalindromeProduct());
 
-        //Problem 5 - WIP
+        //Problem 5
         System.out.format("%f%n",fun.smallestMultiple());
     }
 }
