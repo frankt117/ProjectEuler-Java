@@ -218,4 +218,34 @@ public class Problems {
 
         return smallest;
     }
+
+    private double sumOfSquares ( long maxNum )
+    {
+        double result = 0.0;
+
+        for ( double x = 0.0; x <= maxNum; x++) {
+            result += Math.pow(x,2);
+        }
+
+        return result;
+    }
+
+    private double squareOfSum ( long maxNum )
+    {
+        double result = 0;
+
+        for ( double x = 0.0; x <= maxNum; x++) {
+            result += x;
+        }
+
+        return Math.pow(result, 2);
+    }
+
+    public double sumSquareDifference()
+    {
+        double x = this.sumOfSquares(100);
+        double y = this.squareOfSum(100);
+
+        return (y-x);
+    }
 }

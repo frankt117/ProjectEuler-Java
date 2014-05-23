@@ -27,6 +27,9 @@ public class Main {
         //System.out.format("%d%n",fun.largestPalindromeProduct());
 
         //Problem 5
-        System.out.format("%f%n",fun.smallestMultiple());
+        //System.out.format("%f%n",fun.smallestMultiple());
+
+        //Problem 6
+        System.out.format("%f%n",fun.sumSquareDifference());
     }
 }
